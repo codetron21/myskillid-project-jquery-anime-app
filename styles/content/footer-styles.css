@@ -1,0 +1,18 @@
+.app-footer {
+  background-color: var(--blue);
+  padding: 1.5em 0px;
+  box-shadow: 0 0 0.5em var(--blue-dark);
+  margin-top: 2em;
+}
+
+.app-footer .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creator {
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+}

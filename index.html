@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <script type="text/javascript" src="./javascript/jquery.js"></script>
+    <title>Anime App</title>
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="wrapper container">
+        <h1 class="header-title">Anime App</h1>
+
+        <div class="search-container">
+          <input id="search-input" type="text" placeholder="Search Anime..." />
+          <div class="search-icon-container">
+            <img id="search-icon" src="./assets/icons/search-icon-white.svg" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <div class="wrapper">
+        <section class="result-container">
+          <label class="label-result" for="total-results">Results:</label>
+          <p class="total-results">0</p>
+        </section>
+        <section id="content-list-container">
+          <div id="content-loading"></div>
+          <ul id="content-list" class="item-list-container"></ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="app-footer">
+      <div class="wrapper">
+        <h3 class="creator">@adasoraninda/@codetron21</h3>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="./javascript/index.js"></script>
+  </body>
+</html>
